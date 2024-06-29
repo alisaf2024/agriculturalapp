@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".PaymentActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:id="@+id/titel"
+            android:text="Payment Page"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/titel1"
+            android:text="Details Order"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/id_1"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="Details:"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/idDetext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/idIVimage"
+                android:padding="3dp"
+                android:text="Category Text"
+
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/id_2"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="Price:"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/idPrtext"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/black" />
+            <TextView
+                android:id="@+id/idO"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="OMR"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/id_3"
+                android:layout_width="150dp"
+                android:layout_height="1dp"
+                android:text="Supplier Code:"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/idUserID"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_toEndOf="@id/idIVimage"
+                android:text="Category Text"
+                android:textColor="@color/black" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/titel2"
+            android:text="Details Bank Account"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/id_Account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/idIVimage"
+                android:padding="3dp"
+                android:inputType="number"
+                android:hint="Enter Account No"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/Date1"
+                    android:text="ExpireDate: "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:id="@+id/id_Date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/idIVimage"
+                    android:padding="3dp"
+                    android:hint="dd/yy"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:id="@+id/q2"
+                    android:text="CVV: "
+                    android:layout_marginLeft="100dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:id="@+id/id_CVV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/idIVimage"
+                    android:padding="3dp"
+                    android:hint="CVV"
+                    android:inputType="number"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/but_Pay"
+            android:text="Pay Now"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

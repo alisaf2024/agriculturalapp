@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="2dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="6dp">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="397dp">
+
+        <!--Image view for displaying our image-->
+        <!--Text view for displaying our text -->
+        <ImageView
+            android:id="@+id/idIVimage"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="8dp"
+            android:background="@color/white"
+            android:backgroundTint="@color/white" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="320dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/id_1"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:text="Details:"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/idDetext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/idIVimage"
+                    android:padding="3dp"
+                    android:text="Category Text"
+
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/id_2"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:text="Price:"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/idPrtext"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="Price"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:id="@+id/idO"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="OMR"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/id_3"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:text="Remarks:"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/idNotext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/idIVimage"
+                    android:text="Category Text"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/idIVimage"
+            android:text="Category Text"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

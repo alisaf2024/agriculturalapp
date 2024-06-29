@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">AgriculturalApp</string>
+    <string name="Agricultural_Nurseries">Agricultural Nurseries</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_sub">You are not Login</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="dashboard">Dashboard</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_us"><![CDATA[Agricultural Nurseries Application]]></string>
+    <string name="List_Supplier">List Supplier</string>
+    <string name="Agricultural_Name">Agricultural Name:</string>
+    <string name="Agricultural_Phone">Agricultural Phone:</string>
+    <string name="Add_Item">Add Items</string>
+    <string name="View_Item">View Items</string>
+    <string name="Select_Section">Select Section</string>
+    <string name="List_Order_suppler">List Order Suppler</string>
+    <string name="Indoor_plants">Indoor plants</string>
+    <string name="Outdoor_plants">Outdoor plants</string>
+    <string name="Agricultural_tools">Agricultural tools</string>
+    <string name="List_User">List Use</string>
+    <string name="Dashboard_Admin">Dashboard Admin</string>
+</resources>
